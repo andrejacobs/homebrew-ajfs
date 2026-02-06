@@ -3,7 +3,7 @@ cask "ajfs" do
   name "ajfs"
   desc "Index a file hierarchy with meta data and file signatures so that it can be searched, compared, duplicates found all while being on a different machine"
   homepage "https://github.com/andrejacobs/ajfs"
-  version "0.0.1-beta3"
+  version "0.0.1-beta4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ajfs" do
   on_macos do
     on_intel do
       url "https://github.com/andrejacobs/ajfs/releases/download/v#{version}/ajfs_Darwin_x86_64.tar.gz"
-      sha256 "6159a0b953e75d3fd40a9db99ce3eca00a8bb99097a42767f9ceac73207896df"
+      sha256 "28acb79bb48c8a2efb489ee2e6788f489bf11aa1fe9cb37d65972994e5574afc"
     end
     on_arm do
       url "https://github.com/andrejacobs/ajfs/releases/download/v#{version}/ajfs_Darwin_arm64.tar.gz"
-      sha256 "2fb87db4dcbf796ca78f9fbe2f07507499eaf6b503b64135ffa8e32d78167cfc"
+      sha256 "b8410d0222e4486fd10655b944997ba07d2c8ca7e4f32c8ce1fbb2f41b352175"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andrejacobs/ajfs/releases/download/v#{version}/ajfs_Linux_x86_64.tar.gz"
-      sha256 "fff2c75f25657bff166f77920b290508c86722e8c2d6715d82383d8051cc797d"
+      sha256 "23dc7fc266bead7f15ddcf72b35041d83e285e00d5b35adb68fed0cdfc169af0"
     end
     on_arm do
       url "https://github.com/andrejacobs/ajfs/releases/download/v#{version}/ajfs_Linux_arm64.tar.gz"
-      sha256 "7c4745d28d0578e6a0aeb85f9f74cac0bd1fab7e69ec5826efe86cf060e74615"
+      sha256 "cf2099f5a53043c2f010a1e62d9adf8c9e7225f45af1246d895d57c0d3a47bc0"
     end
   end
 
